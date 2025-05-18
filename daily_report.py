@@ -17,12 +17,12 @@ if not df.empty:
     volatility = df["value"].std()
 
     report = f"""
-    🗓️ Date: {today}
-    🔓 Open: {open_price}
-    🔒 Close: {close_price}
-    📈 High: {high}
-    📉 Low: {low}
-    🔁 Volatility: {volatility:.4f}
+    🗓️  Date: {today}
+       Open: {open_price}
+       Close: {close_price}
+       High: {high}
+       Low: {low}
+       Volatility: {volatility:.4f}
     """
 else:
     report = "Aucune donnée pour aujourd’hui."
